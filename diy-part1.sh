@@ -15,6 +15,6 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-svn co https://github.com/Lienol/openwrt-luci/branches/18.06/themes/luci-theme-bootstrap-mod package/lean/luci-theme-bootstrap-mod #增加一个肤色
+svn co https://github.com/Lienol/openwrt-luci/branches/19.07/themes/luci-theme-bootstrap-mod package/lean/luci-theme-bootstrap-mod #增加一个肤色
 git clone -b master https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns #luci-app-smartdns
 git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns #smartdns进程编译脚本
