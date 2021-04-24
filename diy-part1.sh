@@ -15,5 +15,5 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-git clone https://github.com/lsydy1021/luci-theme-bootstrap-mod-17.01.git package/lean/luci-theme-bootstrap-mod
+git clone https://github.com/lsydy1021/luci-theme-bootstrap-mod-17.01.git package/lean/luci-theme-bootstrap-mod-17.01
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
